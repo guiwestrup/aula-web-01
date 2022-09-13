@@ -1,0 +1,40 @@
+body {
+  /* background: aquamarine url('imagens/paisagem-natural-og.jpg') no-repeat scroll center; */
+}
+
+h1 {
+  font-style: italic;
+  font-size: 4.8rem;
+  text-decoration: underline;
+  text-align: center;
+  border: 5px inset red;
+}
+
+p {
+  border-style: solid;
+  border-color: red green blue yellow;
+  border-radius: 31px;
+  margin: 30px;
+  padding: 20px;
+  padding-top: 10px;
+/*   margin-top: 23px;
+  margin-right: 23px;
+  margin-left: 25px;
+  margin-bottom: 23px; */
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: aquamarine;
+}
+
+h3:hover {
+  color: aliceblue;
+}

@@ -5,20 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Primeira aula - 01</title>
+  <style>
+    /* Aqui é a estilização do H1 */
+    h1 {
+      font-size: 5rem;
+      /* color:brown;
+      background: deeppink; */
+    }
+
+    #logo {
+      height: 4rem;
+    }
+
+    #link-principal {
+      font-size: 8rem;
+    }
+
+    .link-nav {
+      color: red;
+      margin-right: 15px;
+    }
+  </style>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <h1>Aula - 01</h1>
-  <nav>
-    <a href="#ancora-1">Ancora&nbsp;1</a>
-    <a href="#ancora-2">Ancora 2</a>
-    <a href="teste.html">Ir para Documento Teste</a>
-    <a href="teste/teste.html">Ir para Outro Documento Teste</a>
-    <a href="tabela.html">Ir para a tabela</a>
-  </nav>
+  <header>
+    <h1>Aula - 01</h1>
+    <h1>Outro h1</h1>
+    <nav>
+      <img id="logo" src="imagens/ravens.jpeg" alt="Logo Baltimore Ravens">
+      <a id="link-ancora-1" class="link-nav" href="#ancora-1">Ancora&nbsp;1</a>
+      <a class="link-nav" href="#ancora-2">Ancora 2</a>
+      <a class="link-nav" href="teste.html">Ir para Documento Teste</a>
+      <a class="link-nav" href="teste/teste.html">Ir para Outro Documento Teste</a>
+      <a class="link-nav" href="tabela.html">Ir para a tabela</a>
+    </nav>
+  </header>
   <img src="https://img.freepik.com/fotos-gratis/a-paisagem-bonita-do-sol-da-praia-com-um-barco_1112-212.jpg" alt="Imagem com um barco na praia" height="100px">
   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
   <p>Quem num gosta di mé, boa gentis num é.</p>
   <p>Posuere libero varius.</p>
+  <a href="https://google.com">Google</a>
   <!-- unordered list -->
   <h2>Lista de compras</h2>
   <ul>
@@ -46,7 +73,7 @@
     <p>Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</p>
     <p>Viva Forevis aptent taciti sociosqu ad litora torquent.</p>
   </div>
-  <div id="ancora-2" style="margin-top: 1000px;">
+  <div id="ancora-2">
     <h2>Ancora 2</h2>
     <p>Teste.</p>
     <p>teste 2</p>
