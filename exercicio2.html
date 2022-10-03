@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Retorno do nome completo de um form </title>
+</head>
+
+<body>
+  <p>2. Escreva uma função em JS para extrair o nome e o sobrenome do seguinte formulário:</p>
+  First name:
+  <input id="fname" type="text" name="fname" value="Luiz"><br>
+  Last name:
+  <input id="lname" type="text" name="lname" value="Camargo"><br>
+  <button id="botao">Enviar</button>
+  <div id="nova"></div>
+  <script>
+    let botao = document.getElementById('botao')
+
+    botao.addEventListener('click', function () {
+      let fname = document.getElementById('fname')
+      let lname = document.getElementById('lname')
+
+      console.log(fname.value)
+      console.log(lname.value)
+    })
+
+  </script>
+</body>
+
+</html>
